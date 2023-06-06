@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body main{
+    background-color: rgba(98, 0, 255, 0.548);
+    width: 100%;
+    height:100%
+    
+}
+
+div p {
+     text-align: center;
+     text-transform: uppercase;
+     text-decoration: none;
+
+}
+
+form {
+    background-color: rgb(166, 255, 0);
+    width: 500px;
+    height:500px;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 15px 15px 15px 15px rgb(255, 0, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s ease infinite; 
+    flex-direction: column;
+
+
+}
+
+form:hover{
+    transform: translateX(300px);
+    background-color: lightcoral;
+
+
+}
+
+form label {
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+
+form input{
+    padding: 10px;
+    margin: auto;
+    flex-direction: column; 
+    gap: 10px;
+    display: block;
+    border: 10px rgba(0, 255, 213, 0.432);
+    background-color: aqua;
+    outline: none;
+    border:none;
+    
+
+}
+div button {
+    padding: 20px;
+    margin: 20px 10px;
+    width:100%;
+    height: 60px;
+    outline: none;
+    background: none;
+    background-color: aquamarine;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    gap: 10px;
+    
+    
+
+  
+
+}
+
+
+form input [type="email"]:invalid{
+    border:red;
+    background-color: red;
+}
